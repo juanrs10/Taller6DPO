@@ -19,6 +19,8 @@ public class Combo {
 
         this.descuento = descuento; 
 
+        this.itemsCombo = new ArrayList<>();
+
     }
 
     public void agregarItemACombo(Producto itemCombo){
@@ -43,6 +45,11 @@ public class Combo {
 
         return precioFinal; 
 
+    }
+
+    public double getDescuento(){
+
+        return descuento;
     }
 
 
